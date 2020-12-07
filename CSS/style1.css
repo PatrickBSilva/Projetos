@@ -1,0 +1,15 @@
+h1 {
+    color: chartreuse;
+    font-size: 70px;
+    text-align: center;
+}
+/* Estilo do quadro principal*/
+div {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(129, 45, 45);
+}
+#quadro2{
+    background-color: blue;
+
+}

@@ -1,0 +1,14 @@
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+}
+.quadrados {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+
+}

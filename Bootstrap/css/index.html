@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="container-fluid container-linear">
+        <div class="row container-card">
+            <div class="offset-lg-3 col-md-3 col-lg-3 cardcol">
+                <div class="card card-perfil">
+                    <div class="img-card-perfil">
+                        <img src="./imagens/imagem.jpg" alt="foto de perfil" class="card-image mx-auto d-block">                        
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-tetle" style="text-align: center;" id="nome-no-html"></h5>
+                        <hr class="hr">
+                        <p class="text-center" style="text-align: center;" id="cargo-no-html">
+                            
+                        </p>
+                        <div class="botoes-card">
+                            <button onclick="clicknosobre()" class="btn mr-1" id="btn-sobre">sobre</button>
+                            <button 
+                            onclick="clicknoprojetos()"
+                            class="btn ml-1 btn-card" 
+                            id="btn-projeto"
+                            >
+                            Site Topzeira
+                        </button>
+                        </div>
+                        <div class="icon-redes-sociais">
+                            <div class="links-redes-sociais mt-2">
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 text-body">
+                <div class="text" id="texto-1">
+                    <h1 class="title-text" style="text-align: center;">Ergua-se</h1>
+                    <h4 class="title-subtitle" style="text-align: center;">Conheça o rei das sombras</h4>
+                    <p>
+                       <img src="./imagens/Igris_half-body.png" class="mx-auto d-block" alt="meu xódo ">i love igris
+                    </p>  
+                </div>
+                <div class="text" id="texto-2">
+                    <h1 class="title-text" style="text-align: center;">Site de Anime top</h1>
+                    <h4 class="title-subtitle" style="text-align: center;">Clique na imagem</h4>
+                    <p>
+                        <a target="_brank" href="https://animeshd.org/"><img src="./imagens/EN36yFRU0AAlOcz.jpg" alt="meu xódo" class="mx-auto d-block"></a>
+                       
+                    </p>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="row" id="fotter-elementos">
+            <div class="col-md-3 col-lg-3">
+                <h4>um segredinho</h4>
+                <p>Ergua-se</p>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="email">
+                    <h4>a véi</h4>
+
+                </div>
+            </div>
+            <div class="col-md-6-lg-6">
+                <h4>Siga o chefe</h4>
+                <div class="link-redes-sociais">
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center mb-2">
+            <div class="col-lg-12 col-md-12">
+                <small>2020 <a href="#">Ergua-se</a></small>
+            </div>    
+        </div>
+    </footer>
+    <script src="./Javascript/index.js"></script>
+</body>
+</html>
